@@ -42,9 +42,13 @@ npm install -g commitizen
 Next, initialize your project to use the cz-mtb-commit adapter by typing:
 
 ```
-commitizen init cz-conventional-changelog --save-dev --save-exact
+commitizen init cz-mtb-commit --save-dev --save-exact
 ```
 
 Now cdinto any git repository and use `git cz` instead of `git commit` and you will find the `commitizen` prompt.
+
+## Example
+
+![](./commit.gif)
 
 [more information](https://github.com/commitizen/cz-cli)

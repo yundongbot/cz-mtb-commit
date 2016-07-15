@@ -20,9 +20,15 @@
   },
   "devDependencies": {
     "commitizen": "1.0.5",
+    "cz-mtb-commit": "0.0.1",
     "semantic-release": "^4.3.5"
   },
   "czConfig": {
     "path": "./"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-mtb-commit"
+    }
   }
 }
